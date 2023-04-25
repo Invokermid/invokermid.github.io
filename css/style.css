@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(/img/1642453586_1-phonoteka-org-p-krasivii-fon-dlya-doti-krasivo-1.jpg\ лес.jpg);
+    background-size: cover;
+
+}
+
+header {
+    padding: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header_btn-prev {
+    height: 70px;
+    width: 70px;
+    font-size: 50px;
+    color: white;
+    border: solid 2px white;
+    border-radius: 70px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_btn-prev:hover {
+
+    background-color: rgba(222, 22, 72, 0.9);
+    color: rgb(71, 19, 131);
+    font-size: 60px;
+    transition: 0.4;
+}
+
+.header__title {
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-top: 5px;
+}
+
+.score {
+    display: none;
+    color: white;
+    font-size: 50px;
+    padding-top: 5px;
+}
+
+
+.best_score {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+.game-section__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.game-menu__btn {
+    color: rgb(251, 251, 251);
+    background-color: rgba(248, 158, 1, 0.3);
+    border: solid 2px white;
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+    margin: 40px auto;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s;
+}
+
+.game-menu__btn:hover {
+    background-color: rgba(0, 195, 255, 0.9);
+    transition: 0.4s;
+    font-size: 32px;
+
+
+}
+
+.game-menu_title {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.game-field {
+    margin: auto;
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.game-card {
+    width: 184px;
+    height: 184px;
+    background-image: url(/img/card.png);
+    background-color: brown;
+    margin: 15px;
+    border-radius: 20px;
+    transform: perspective(200px) rotateY(0deg);
+    transition: 0.5s;
+
+}
+
+.type1 {
+    background-image: url(/img/fc1dc161200676033dcd67189af5d2d4сф.jpg);
+}
+
+.type2 {
+    background-image: url(/img/png-clipart-dota-2-kiev-major-artifact-illustration-dota-2-juggernaut-fictional-character-cartoon.png);
+}
+
+.type3 {
+    background-image: url(/img/Untitled\ \(1\).png);
+}
+
+.type4 {
+    background-image: url(/img/png-transparent-dota-2-the-international-2016-desktop-drawing-tear-effect-miscellaneous-game-computer-wallpaper.png);
+}
+
+.type5 {
+    background-image: url(/img/cybere4377774adb.png\ рр5.png);
+}
+
+.type6 {
+    background-image: url(/img/portrait.jpg);
+}
+
+.type7 {
+    background-image: url(/img/Сportrait.jpg);
+}
+
+.type8 {
+    background-image: url(/img/image-18.png\ шторм\ \(1\).png);
+}
+
+.flip {
+    background-color: brown;
+
+    transform: perspective(200px) rotateY(-180deg);
+    transition: 0.5s;
+
+
+}
